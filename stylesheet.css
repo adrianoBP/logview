@@ -1,0 +1,40 @@
+body{
+  cursor: default;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.swal-modal{
+  width: auto;
+  max-width: 90%;
+}
+.swal-title {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.swal-text {
+  display: block;
+}
+.swal-footer {
+  background-color: rgb(245, 248, 250);
+  margin-top: 32px;
+  border-top: 1px solid #E9EEF1;
+  overflow: hidden;
+}
+
+.swal-button {
+  background-color: #424242;
+}
